@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 23, 2018, 10:56:27 PM
+    Author     : mjist
+*/
+
+/*Index page style*/ 
+
+.button{
+    position: fixed;
+    z-index: 1;
+    right: 10%;
+    top: 40%;
+    font-size: 50px;
+    background-color: rgba(51, 153, 255,.4);
+    transition: 1s;
+}
+
+body { 
+	color: #421; font-weight: bold; font-size: 18px; background: #EE4; 
+	background-image: url("girl.png"); background-repeat: repeat-y; 
+}
+span { 
+	color: #711; 
+} 
+::-webkit-input-placeholder { 
+	color: #711 
+}
+#main { 
+	position: fixed; top: 40%; right: 10%; width: 400px; 
+	border: 0px solid #421; padding: 40px; 
+}
+#main div { 
+	margin: 10px; 
+} 
+#input { 
+	border: 0; background: #EBE547; padding: 5px; border: 1px solid #421; border-radius: 3px;
+}
+.hr1{
+    border: 1px solid green;
+}
+.left .robot{
+    width:700px;
+    position: fixed;
+    left: 0px;
+}
+/*Text Animation*/ 
+
+.ml2 {
+  font-weight: 900;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+/*Text Animation  2 */ 
+.ml9 {
+  position: relative;
+  font-weight: 200;
+  font-size: 3em;
+  text-align: center;
+  margin-left: -50px;
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: .1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.3em;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
